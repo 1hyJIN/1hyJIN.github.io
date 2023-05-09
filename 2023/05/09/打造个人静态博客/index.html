@@ -20,30 +20,32 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="HyFan的个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="HyFan">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="我发现用hexo写博客简单又高效，markdown编写git发布，静态网页速度快，稳定性高，对于博客来说这一切足够了。只需要一条指令就可以部署到 GitHub Pages、Heroku、Coding Pages 等其他网站。而且还可以集成很多其它功能。 开始之前需要有的基本知识:Node.js基本知识什么是 Node.js?Node.js是一个开源的、服务器端的JavaScript运行环境。它允许">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GithubPages + Hexo 建造个人静态网页博客">
+<meta property="og:url" content="http://example.com/2023/05/09/%E6%89%93%E9%80%A0%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="HyFan">
-<meta property="og:description" content="HyFan的个人博客">
+<meta property="og:description" content="我发现用hexo写博客简单又高效，markdown编写git发布，静态网页速度快，稳定性高，对于博客来说这一切足够了。只需要一条指令就可以部署到 GitHub Pages、Heroku、Coding Pages 等其他网站。而且还可以集成很多其它功能。 开始之前需要有的基本知识:Node.js基本知识什么是 Node.js?Node.js是一个开源的、服务器端的JavaScript运行环境。它允许">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-05-09T11:40:23.000Z">
+<meta property="article:modified_time" content="2023-05-09T12:05:10.374Z">
 <meta property="article:author" content="hy">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2023/05/09/%E6%89%93%E9%80%A0%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>HyFan</title>
+  <title>GithubPages + Hexo 建造个人静态网页博客 | HyFan</title>
   
 
 
@@ -147,161 +149,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/09/%E6%80%BB%E7%BB%93/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="hy">
-      <meta itemprop="description" content="HyFan的个人博客">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="HyFan">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/05/09/%E6%80%BB%E7%BB%93/" class="post-title-link" itemprop="url">总结</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2023-05-09 20:13:41 / 修改时间：20:48:06" itemprop="dateCreated datePublished" datetime="2023-05-09T20:13:41+08:00">2023-05-09</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>479</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="next主题选择及选取原因"><a href="#next主题选择及选取原因" class="headerlink" title="next主题选择及选取原因"></a>next主题选择及选取原因</h2><p>next是一款非常简洁舒服的主题，并且可支持的插件非常多，功能也很强大。</p>
-<ul>
-<li>可以直接搜索next，然后点击 GitHub的地址，进入下载</li>
-<li>根据它的下载提示，直接在 git bash窗口中输入，即可下载next主题： <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></li>
-<li>下载完成之后，在 blog文件夹（即根目录）下找到 themes文件夹，这个文件夹里面存放你下载的主题文件，可以看到next主题又再次包含一个文件夹，其中包含了next 主题的配置信息</li>
-<li>修改blog的主题：首先返回blog根目录中，打开 _config.yml 文件（建议备份一份，直接复制即可），然后在 _config.yml 中找到 theme选项（如果你使用vscode，则直接 ctrl+h搜索即可，否则就自己往下滑），然后把 theme 上输入 next，表示使用的主题是next（使用其他主题也是如此）</li>
-</ul>
-<h3 id="next主题配置"><a href="#next主题配置" class="headerlink" title="next主题配置"></a>next主题配置</h3><h4 id="创建新的菜单"><a href="#创建新的菜单" class="headerlink" title="创建新的菜单"></a>创建新的菜单</h4><h4 id="添加搜索功能"><a href="#添加搜索功能" class="headerlink" title="添加搜索功能"></a>添加搜索功能</h4><h4 id="添加阅读时间字数提示"><a href="#添加阅读时间字数提示" class="headerlink" title="添加阅读时间字数提示"></a>添加阅读时间字数提示</h4><h4 id="打赏功能"><a href="#打赏功能" class="headerlink" title="打赏功能"></a>打赏功能</h4><h4 id="添加百度统计"><a href="#添加百度统计" class="headerlink" title="添加百度统计"></a>添加百度统计</h4><p>还有很多自定义功能。<br>可以看<a target="_blank" rel="noopener" href="https://hexo.io/docs/">这里</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/09/test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="hy">
-      <meta itemprop="description" content="HyFan的个人博客">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="HyFan">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/05/09/test/" class="post-title-link" itemprop="url">GunDam</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2023-05-09 19:40:23 / 修改时间：20:09:48" itemprop="dateCreated datePublished" datetime="2023-05-09T19:40:23+08:00">2023-05-09</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>0</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <img src="/2023/05/09/test/test.png" class="" title="图片引用方法一">
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -317,10 +168,9 @@
       <meta itemprop="name" content="HyFan">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/05/09/%E6%89%93%E9%80%A0%E4%B8%AA%E4%BA%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">GithubPages + Hexo 建造个人静态网页博客</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          GithubPages + Hexo 建造个人静态网页博客
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -358,7 +208,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>我发现用hexo写博客简单又高效，markdown编写git发布，静态网页速度快，稳定性高，对于博客来说这一切足够了。只需要一条指令就可以部署到 GitHub Pages、Heroku、Coding Pages 等其他网站。而且还可以集成很多其它功能。</p>
+        <p>我发现用hexo写博客简单又高效，markdown编写git发布，静态网页速度快，稳定性高，对于博客来说这一切足够了。只需要一条指令就可以部署到 GitHub Pages、Heroku、Coding Pages 等其他网站。而且还可以集成很多其它功能。</p>
 <h2 id="开始之前需要有的基本知识"><a href="#开始之前需要有的基本知识" class="headerlink" title="开始之前需要有的基本知识:"></a>开始之前需要有的基本知识:</h2><h3 id="Node-js基本知识"><a href="#Node-js基本知识" class="headerlink" title="Node.js基本知识"></a>Node.js基本知识</h3><h4 id="什么是-Node-js"><a href="#什么是-Node-js" class="headerlink" title="什么是 Node.js?"></a>什么是 Node.js?</h4><p>Node.js是一个开源的、服务器端的JavaScript运行环境。它允许开发者在浏览器之外的服务器上运行JavaScript代码。</p>
 <h4 id="Key-Features"><a href="#Key-Features" class="headerlink" title="Key Features"></a>Key Features</h4><p>Node.js 有几个关键特性，使其在开发人员中很受欢迎：</p>
 <ul>
@@ -472,183 +322,33 @@
 <h3 id="发布到GitHub"><a href="#发布到GitHub" class="headerlink" title="发布到GitHub"></a>发布到GitHub</h3><p>在本地的 Hexo 站点根目录下，执行如下命令即可部署到 GitHub Pages 上。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo d -g</span><br></pre></td></tr></table></figure>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/08/test-my-site/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="hy">
-      <meta itemprop="description" content="HyFan的个人博客">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="HyFan">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/05/08/test-my-site/" class="post-title-link" itemprop="url">test_my_site</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2023-05-08 16:46:35" itemprop="dateCreated datePublished" datetime="2023-05-08T16:46:35+08:00">2023-05-08</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>0</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/05/08/test-my-site/" rel="prev" title="test_my_site">
+      <i class="fa fa-chevron-left"></i> test_my_site
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/05/09/test/" rel="next" title="GunDam">
+      GunDam <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/08/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="hy">
-      <meta itemprop="description" content="HyFan的个人博客">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="HyFan">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/05/08/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2023-05-08 16:42:25" itemprop="dateCreated datePublished" datetime="2023-05-08T16:42:25+08:00">2023-05-08</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：1985-10-26 16:15:00" itemprop="dateModified" datetime="1985-10-26T16:15:00+08:00">1985-10-26</time>
-              </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>367</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -701,6 +401,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D%E9%9C%80%E8%A6%81%E6%9C%89%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86"><span class="nav-number">1.</span> <span class="nav-text">开始之前需要有的基本知识:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Node-js%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86"><span class="nav-number">1.1.</span> <span class="nav-text">Node.js基本知识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-Node-js"><span class="nav-number">1.1.1.</span> <span class="nav-text">什么是 Node.js?</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Key-Features"><span class="nav-number">1.1.2.</span> <span class="nav-text">Key Features</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Common-Use-Cases"><span class="nav-number">1.1.3.</span> <span class="nav-text">Common Use Cases</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Example-Node-js-Script"><span class="nav-number">1.1.4.</span> <span class="nav-text">Example Node.js Script</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86"><span class="nav-number">1.2.</span> <span class="nav-text">Git基本知识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-Git"><span class="nav-number">1.2.1.</span> <span class="nav-text">什么是 Git?</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Key-Concepts"><span class="nav-number">1.2.2.</span> <span class="nav-text">Key Concepts</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Common-Commands"><span class="nav-number">1.2.3.</span> <span class="nav-text">Common Commands</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Html%E3%80%81css%E3%80%81JavaScript-%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86"><span class="nav-number">1.3.</span> <span class="nav-text">Html、css、JavaScript 基本知识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML"><span class="nav-number">1.3.1.</span> <span class="nav-text">HTML</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#CSS"><span class="nav-number">1.3.2.</span> <span class="nav-text">CSS</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#JavaScript"><span class="nav-number">1.3.3.</span> <span class="nav-text">JavaScript</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown"><span class="nav-number">1.4.</span> <span class="nav-text">Markdown</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Syntax"><span class="nav-number">1.4.1.</span> <span class="nav-text">Syntax</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Output"><span class="nav-number">1.4.2.</span> <span class="nav-text">Output</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Tools"><span class="nav-number">1.4.3.</span> <span class="nav-text">Tools</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Conclusion"><span class="nav-number">1.4.4.</span> <span class="nav-text">Conclusion</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">2.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEHexo"><span class="nav-number">3.</span> <span class="nav-text">配置Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="nav-number">4.</span> <span class="nav-text">Hexo 的基本命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E5%88%B0-GitHub"><span class="nav-number">5.</span> <span class="nav-text">部署到 GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C%EF%BC%9A"><span class="nav-number">5.1.</span> <span class="nav-text">准备工作：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E6%8F%92%E4%BB%B6"><span class="nav-number">5.2.</span> <span class="nav-text">安装部署插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEGit"><span class="nav-number">5.3.</span> <span class="nav-text">配置Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E7%AB%99%E7%82%B9-config-yml-%E6%96%87%E4%BB%B6"><span class="nav-number">5.4.</span> <span class="nav-text">配置站点 _config.yml 文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%91%E5%B8%83%E5%88%B0GitHub"><span class="nav-number">5.5.</span> <span class="nav-text">发布到GitHub</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
